@@ -37,7 +37,7 @@
     [nadView setIsOutputLog:false];
     [nadView setDelegate:delegate];
     [nadView load];
-    [nadView addSubview:superView];
+    [superView addSubview:nadView];
 }
 
 @end
