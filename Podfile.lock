@@ -1,0 +1,14 @@
+PODS:
+  - NendSDK (1.0.0)
+
+DEPENDENCIES:
+  - NendSDK (from `../cocoapods-specs/NendSDK/1.0.0/NendSDK.podspec`)
+
+EXTERNAL SOURCES:
+  NendSDK:
+    :podspec: ../cocoapods-specs/NendSDK/1.0.0/NendSDK.podspec
+
+SPEC CHECKSUMS:
+  NendSDK: 49f76276e3cdbc3152857327af35351761aedffa
+
+COCOAPODS: 0.33.1

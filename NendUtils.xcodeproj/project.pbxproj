@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		248F6F071AB5A7E300699792 /* NendBannerUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 248F6F051AB5A7E300699792 /* NendBannerUtil.h */; };
+		248F6F081AB5A7E300699792 /* NendBannerUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 248F6F061AB5A7E300699792 /* NendBannerUtil.m */; };
+		24C15F2F1AB5A4EA00502D68 /* NendUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 24C15F2E1AB5A4EA00502D68 /* NendUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24C15F351AB5A4EA00502D68 /* NendUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24C15F291AB5A4EA00502D68 /* NendUtils.framework */; };
+		24C15F3C1AB5A4EA00502D68 /* NendUtilsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C15F3B1AB5A4EA00502D68 /* NendUtilsTests.m */; };
+		D868485BF10A4492974716C9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB5D96F32BDB4BF28D795AEF /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24C15F361AB5A4EA00502D68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24C15F201AB5A4EA00502D68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24C15F281AB5A4EA00502D68;
+			remoteInfo = NendUtils;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		248F6F051AB5A7E300699792 /* NendBannerUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NendBannerUtil.h; sourceTree = "<group>"; };
+		248F6F061AB5A7E300699792 /* NendBannerUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NendBannerUtil.m; sourceTree = "<group>"; };
+		24C15F291AB5A4EA00502D68 /* NendUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NendUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24C15F2D1AB5A4EA00502D68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24C15F2E1AB5A4EA00502D68 /* NendUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NendUtils.h; sourceTree = "<group>"; };
+		24C15F341AB5A4EA00502D68 /* NendUtilsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NendUtilsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24C15F3A1AB5A4EA00502D68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24C15F3B1AB5A4EA00502D68 /* NendUtilsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NendUtilsTests.m; sourceTree = "<group>"; };
+		28E2DBAED14C43CBBD06BB12 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		AB5D96F32BDB4BF28D795AEF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24C15F251AB5A4EA00502D68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D868485BF10A4492974716C9 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24C15F311AB5A4EA00502D68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24C15F351AB5A4EA00502D68 /* NendUtils.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24C15F1F1AB5A4EA00502D68 = {
+			isa = PBXGroup;
+			children = (
+				24C15F2B1AB5A4EA00502D68 /* NendUtils */,
+				24C15F381AB5A4EA00502D68 /* NendUtilsTests */,
+				24C15F2A1AB5A4EA00502D68 /* Products */,
+				28E2DBAED14C43CBBD06BB12 /* Pods.xcconfig */,
+				6282B19B532F4F76BB944356 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		24C15F2A1AB5A4EA00502D68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24C15F291AB5A4EA00502D68 /* NendUtils.framework */,
+				24C15F341AB5A4EA00502D68 /* NendUtilsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24C15F2B1AB5A4EA00502D68 /* NendUtils */ = {
+			isa = PBXGroup;
+			children = (
+				24C15F2E1AB5A4EA00502D68 /* NendUtils.h */,
+				248F6F051AB5A7E300699792 /* NendBannerUtil.h */,
+				248F6F061AB5A7E300699792 /* NendBannerUtil.m */,
+				24C15F2C1AB5A4EA00502D68 /* Supporting Files */,
+			);
+			path = NendUtils;
+			sourceTree = "<group>";
+		};
+		24C15F2C1AB5A4EA00502D68 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				24C15F2D1AB5A4EA00502D68 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		24C15F381AB5A4EA00502D68 /* NendUtilsTests */ = {
+			isa = PBXGroup;
+			children = (
+				24C15F3B1AB5A4EA00502D68 /* NendUtilsTests.m */,
+				24C15F391AB5A4EA00502D68 /* Supporting Files */,
+			);
+			path = NendUtilsTests;
+			sourceTree = "<group>";
+		};
+		24C15F391AB5A4EA00502D68 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				24C15F3A1AB5A4EA00502D68 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6282B19B532F4F76BB944356 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB5D96F32BDB4BF28D795AEF /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		24C15F261AB5A4EA00502D68 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24C15F2F1AB5A4EA00502D68 /* NendUtils.h in Headers */,
+				248F6F071AB5A7E300699792 /* NendBannerUtil.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		24C15F281AB5A4EA00502D68 /* NendUtils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24C15F3F1AB5A4EA00502D68 /* Build configuration list for PBXNativeTarget "NendUtils" */;
+			buildPhases = (
+				2334088A2AEB48C7A7554427 /* Check Pods Manifest.lock */,
+				24C15F241AB5A4EA00502D68 /* Sources */,
+				24C15F251AB5A4EA00502D68 /* Frameworks */,
+				24C15F261AB5A4EA00502D68 /* Headers */,
+				24C15F271AB5A4EA00502D68 /* Resources */,
+				EAC8971F0B244F9C8D86284C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NendUtils;
+			productName = NendUtils;
+			productReference = 24C15F291AB5A4EA00502D68 /* NendUtils.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		24C15F331AB5A4EA00502D68 /* NendUtilsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24C15F421AB5A4EA00502D68 /* Build configuration list for PBXNativeTarget "NendUtilsTests" */;
+			buildPhases = (
+				24C15F301AB5A4EA00502D68 /* Sources */,
+				24C15F311AB5A4EA00502D68 /* Frameworks */,
+				24C15F321AB5A4EA00502D68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24C15F371AB5A4EA00502D68 /* PBXTargetDependency */,
+			);
+			name = NendUtilsTests;
+			productName = NendUtilsTests;
+			productReference = 24C15F341AB5A4EA00502D68 /* NendUtilsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24C15F201AB5A4EA00502D68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = jun.hashimoto;
+				TargetAttributes = {
+					24C15F281AB5A4EA00502D68 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					24C15F331AB5A4EA00502D68 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 24C15F231AB5A4EA00502D68 /* Build configuration list for PBXProject "NendUtils" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 24C15F1F1AB5A4EA00502D68;
+			productRefGroup = 24C15F2A1AB5A4EA00502D68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24C15F281AB5A4EA00502D68 /* NendUtils */,
+				24C15F331AB5A4EA00502D68 /* NendUtilsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24C15F271AB5A4EA00502D68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24C15F321AB5A4EA00502D68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2334088A2AEB48C7A7554427 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EAC8971F0B244F9C8D86284C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24C15F241AB5A4EA00502D68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				248F6F081AB5A7E300699792 /* NendBannerUtil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24C15F301AB5A4EA00502D68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24C15F3C1AB5A4EA00502D68 /* NendUtilsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24C15F371AB5A4EA00502D68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24C15F281AB5A4EA00502D68 /* NendUtils */;
+			targetProxy = 24C15F361AB5A4EA00502D68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		24C15F3D1AB5A4EA00502D68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		24C15F3E1AB5A4EA00502D68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		24C15F401AB5A4EA00502D68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28E2DBAED14C43CBBD06BB12 /* Pods.xcconfig */;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = NendUtils/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		24C15F411AB5A4EA00502D68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28E2DBAED14C43CBBD06BB12 /* Pods.xcconfig */;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = NendUtils/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		24C15F431AB5A4EA00502D68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NendUtilsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		24C15F441AB5A4EA00502D68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NendUtilsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24C15F231AB5A4EA00502D68 /* Build configuration list for PBXProject "NendUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24C15F3D1AB5A4EA00502D68 /* Debug */,
+				24C15F3E1AB5A4EA00502D68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24C15F3F1AB5A4EA00502D68 /* Build configuration list for PBXNativeTarget "NendUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24C15F401AB5A4EA00502D68 /* Debug */,
+				24C15F411AB5A4EA00502D68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24C15F421AB5A4EA00502D68 /* Build configuration list for PBXNativeTarget "NendUtilsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24C15F431AB5A4EA00502D68 /* Debug */,
+				24C15F441AB5A4EA00502D68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24C15F201AB5A4EA00502D68 /* Project object */;
+}
